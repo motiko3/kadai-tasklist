@@ -1,7 +1,7 @@
 <h1>新規タスク投稿</h1>
 <%= form_with(model: @task,local: true) do |f| %>
 　<%= f.label :content, "タスク" %>
-  <%= f.text_field :cotent %>
+  <%= f.text_field :content %>
   
   <%= f.submit "投稿" %>
 <% end %>  
